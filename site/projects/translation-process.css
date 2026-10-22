@@ -1,50 +1,44 @@
-/* The added process slide extends the previous translation loop into a
-   material-to-body-to-performance sequence. */
+/* The process block extends the previous translation loop, keeping its
+   material-to-body-to-performance sequence and editorial color palette. */
 .process-slide{container-type:inline-size}
 .translation-process{min-height:56.25cqw;padding:3.1cqw 4.4cqw 2.6cqw;background:#eeefec;color:#1b1e1c;font-family:Arial,Helvetica,sans-serif;line-height:1.4}
 .process-heading{display:grid;grid-template-columns:1.1fr 1fr;gap:4cqw;align-items:end}
 .translation-process .process-kicker{margin:0 0 .8cqw;color:#8c513f;font-size:1cqw;line-height:1.25;font-weight:700;letter-spacing:.025em}
 .translation-process h2{margin:0;font:700 3.3cqw/1.05 Arial,Helvetica,sans-serif;letter-spacing:-.035em}
 .translation-process .process-subtitle{margin:0 0 .15cqw;font:italic 1.25cqw/1.45 Georgia,serif;color:#626963;max-width:39cqw}
-.process-line{position:relative;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:1.3cqw;list-style:none;margin:2.05cqw 0 1.75cqw;padding:0}
-.process-line:before{content:"";position:absolute;top:.39cqw;left:.42cqw;right:1cqw;height:1px;background:#bfc2b9}
-.process-line li{position:relative;z-index:1;display:flex;flex-direction:column;align-items:flex-start;gap:.47cqw;font-size:.78cqw;line-height:1.3;font-weight:700;letter-spacing:.035em;color:#59614f;white-space:nowrap}
-.process-line li span{width:.85cqw;height:.85cqw;display:grid;place-items:center;background:#646b55;color:#fff;font:600 .55cqw/1 Arial,sans-serif}
+.process-line{position:relative;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:1.3cqw;list-style:none;margin:2.05cqw 0 2.2cqw;padding:0}
+.process-line:before{content:"";position:absolute;top:.34cqw;left:.38cqw;right:.9cqw;height:1px;background:#c9cbc5}
+.process-line li{position:relative;z-index:1;display:flex;flex-direction:column;align-items:flex-start;gap:.42cqw;font-size:.68cqw;line-height:1.3;font-weight:700;letter-spacing:.025em;color:#767c73;white-space:nowrap}
+.process-line li span{width:.72cqw;height:.72cqw;display:grid;place-items:center;background:#818779;color:#fff;font:600 .48cqw/1 Arial,sans-serif}
 .process-line li:last-child span{background:#92513d}
-.process-image-sequence{display:grid;grid-template-columns:.68fr .83fr 1.05fr 1.35fr;gap:1.4cqw;align-items:end}
-.process-image-stage{height:24cqw;display:flex;justify-content:center;align-items:flex-end;min-width:0}
-.process-image-stage a{display:flex;justify-content:center;align-items:flex-end;max-width:100%;height:100%;overflow:hidden}
-.deck .process-image-stage img{display:block;width:auto;height:auto;max-width:100%;object-fit:contain;object-position:center bottom;transition:none}
-.stage-material img{max-height:11.5cqw}
-.stage-skirt img{max-height:15.5cqw}
-.stage-worn img{max-height:19.5cqw}
-.stage-performance img{max-height:23.5cqw}
-.process-captions{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.4cqw;margin-top:1.1cqw}
-.process-captions section{border-top:1px solid #c6c9c1;padding-top:.65cqw;min-width:0}
-.translation-process .process-step-label{margin:0;color:#8c513f;font-size:.76cqw;line-height:1.3;font-weight:700;letter-spacing:.045em}
-.translation-process h3{margin:.35cqw 0 .45cqw;font-size:1.12cqw;line-height:1.2;letter-spacing:-.015em}
-.translation-process .process-captions section p:last-child{margin:0;font-size:.94cqw;line-height:1.45;color:#555d5e}
-.process-team{display:grid;grid-template-columns:13cqw 1fr;gap:1.4cqw;margin-top:1.25cqw;padding-top:.8cqw;border-top:1px solid #c6c9c1}
+.process-image-sequence{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.4cqw;align-items:start}
+.process-stage{min-width:0;margin:0}
+.process-image-stage{width:100%;aspect-ratio:4/5;display:flex;justify-content:center;align-items:center;overflow:hidden;background:#e6e7e3}
+.process-image-stage a{display:flex;justify-content:center;align-items:center;width:100%;height:100%;overflow:hidden}
+.deck .process-image-stage img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;transition:none}
+.process-stage-copy{padding-top:.85cqw}
+.process-stage-copy .process-step-label{margin:0;color:#8c513f;font-size:.7cqw;line-height:1.3;font-weight:700;letter-spacing:.04em}
+.process-stage-copy h3{margin:.35cqw 0 .45cqw;font-size:1.05cqw;line-height:1.2;letter-spacing:-.015em}
+.process-stage-copy>p:last-child{margin:0;font-size:.88cqw;line-height:1.48;color:#555d5e}
+.process-team{display:grid;grid-template-columns:13cqw 1fr;gap:1.4cqw;margin-top:2cqw;padding-top:1.1cqw;border-top:1px solid #c6c9c1}
 .translation-process .process-team h3{margin:0;color:#59614f;font-size:.8cqw;line-height:1.35;letter-spacing:.035em}
-.translation-process .process-team p{margin:0;font-size:.9cqw;line-height:1.45;color:#555d5e}
+.translation-process .process-team p{margin:0;font-size:.88cqw;line-height:1.5;color:#555d5e}
 @media(max-width:1000px){
  .translation-process{padding:28px;min-height:0}
  .process-heading{gap:24px}
  .translation-process .process-kicker{font-size:11px;margin-bottom:9px}
  .translation-process h2{font-size:clamp(30px,4vw,42px)}
  .translation-process .process-subtitle{font-size:16px;line-height:1.4}
- .process-line{gap:10px;margin:24px 0 21px}
+ .process-line{gap:10px;margin:24px 0 28px}
  .process-line:before{top:6px;left:7px;right:10px}
  .process-line li{font-size:9px;gap:7px;white-space:normal}
  .process-line li span{width:12px;height:12px;font-size:8px}
- .process-image-sequence{gap:10px}
- .process-image-stage{height:270px}
- .stage-material img{max-height:130px}.stage-skirt img{max-height:175px}.stage-worn img{max-height:220px}.stage-performance img{max-height:265px}
- .process-captions{gap:10px;margin-top:12px}
- .translation-process .process-step-label{font-size:10px}
- .translation-process h3{font-size:15px;margin:6px 0}
- .translation-process .process-captions section p:last-child{font-size:13px;line-height:1.5}
- .process-team{grid-template-columns:120px 1fr;gap:14px;margin-top:19px;padding-top:12px}
+ .process-image-sequence{gap:12px}
+ .process-stage-copy{padding-top:9px}
+ .process-stage-copy .process-step-label{font-size:10px}
+ .process-stage-copy h3{font-size:15px;margin:6px 0}
+ .process-stage-copy>p:last-child{font-size:13px;line-height:1.5}
+ .process-team{grid-template-columns:120px 1fr;gap:14px;margin-top:24px;padding-top:14px}
  .translation-process .process-team h3{font-size:10px}.translation-process .process-team p{font-size:13px;line-height:1.5}
 }
 @media(max-width:640px){
@@ -52,16 +46,16 @@
  .process-heading{grid-template-columns:1fr;gap:10px}
  .translation-process h2{font-size:32px}
  .translation-process .process-subtitle{font-size:16px;max-width:none}
- .process-line{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:14px;margin:23px 0}
+ .process-line{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:14px;margin:23px 0 29px}
  .process-line:before{display:none}
  .process-line li{flex-direction:row;align-items:center;gap:6px;font-size:9px}
  .process-line li span{flex:0 0 14px;width:14px;height:14px;font-size:8px}
- .process-image-sequence{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 14px}
- .process-image-stage{height:225px}
- .stage-material img{max-height:92px}.stage-skirt img{max-height:125px}.stage-worn img{max-height:168px}.stage-performance img{max-height:220px}
- .process-captions{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 13px;margin-top:13px}
- .translation-process h3{font-size:16px}
- .translation-process .process-captions section p:last-child{font-size:14px}
- .process-team{grid-template-columns:1fr;gap:8px;margin-top:20px;padding-top:12px}
+ .process-image-sequence{grid-template-columns:minmax(0,1fr);gap:25px}
+ .process-image-stage{aspect-ratio:4/5}
+ .process-stage-copy{padding-top:10px}
+ .process-stage-copy .process-step-label{font-size:10px}
+ .process-stage-copy h3{font-size:17px;margin:6px 0}
+ .process-stage-copy>p:last-child{font-size:14px;line-height:1.5}
+ .process-team{grid-template-columns:1fr;gap:8px;margin-top:26px;padding-top:14px}
  .translation-process .process-team h3{font-size:11px}.translation-process .process-team p{font-size:14px}
 }
