@@ -9,19 +9,19 @@
   <rect x="110" y="230" width="1030" height="205" rx="22" fill="#fff" stroke="#d8d4c9" stroke-width="2"/><rect x="110" y="230" width="14" height="205" rx="7" fill="#e8655c"/>
   <text x="160" y="285" font-size="22" font-weight="700" letter-spacing="2" fill="#e8655c">RESPONSIBILITY</text><text x="160" y="340" font-size="29" font-weight="700" fill="#171717">Who bears the cost?</text><text x="160" y="390" font-size="22" fill="#77766f">I absorbed delays, rework, lost traffic, and recovery work.</text>
   <rect x="1230" y="230" width="1060" height="205" rx="22" fill="#fff" stroke="#d8d4c9" stroke-width="2"/><rect x="1230" y="230" width="14" height="205" rx="7" fill="#5578e8"/>
-  <text x="1280" y="285" font-size="22" font-weight="700" letter-spacing="2" fill="#5578e8">CONTROL</text><text x="1280" y="340" font-size="29" font-weight="700" fill="#171717">Who controls implementation?</text><text x="1280" y="390" font-size="22" fill="#77766f">The contractor controlled execution; the platform controlled access.</text>
+  <text x="1280" y="285" font-size="22" font-weight="700" letter-spacing="2" fill="#5578e8">CONTROL</text><text x="1280" y="340" font-size="29" font-weight="700" fill="#171717">Who controls implementation?</text><text x="1280" y="390" font-size="22" fill="#77766f">The contractor directed scheduling and technical execution.</text>
   <rect x="110" y="465" width="1030" height="205" rx="22" fill="#fff" stroke="#d8d4c9" stroke-width="2"/><rect x="110" y="465" width="14" height="205" rx="7" fill="#e5bd42"/>
   <text x="160" y="520" font-size="22" font-weight="700" letter-spacing="2" fill="#a7861d">COORDINATION</text><text x="160" y="575" font-size="29" font-weight="700" fill="#171717">Who keeps the system moving?</text><text x="160" y="625" font-size="22" fill="#77766f">Negotiation linked workers, staff, partners, and customers.</text>
   <rect x="1230" y="465" width="1060" height="205" rx="22" fill="#fff" stroke="#d8d4c9" stroke-width="2"/><rect x="1230" y="465" width="14" height="205" rx="7" fill="#8be447"/>
-  <text x="1280" y="520" font-size="22" font-weight="700" letter-spacing="2" fill="#4e9f1d">CORRECTION</text><text x="1280" y="575" font-size="29" font-weight="700" fill="#171717">What recourse exists?</text><text x="1280" y="625" font-size="21" fill="#77766f">12315 escalation and platform appeals tested different routes.</text>
+  <text x="1280" y="520" font-size="22" font-weight="700" letter-spacing="2" fill="#4e9f1d">RECOURSE</text><text x="1280" y="575" font-size="29" font-weight="700" fill="#171717">What recourse is available?</text><text x="1280" y="625" font-size="21" fill="#77766f">I appealed three times; none succeeded, and the channel was not restored.</text>
 </g>
 <rect x="110" y="725" width="2180" height="470" rx="24" fill="#171717"/>
 <text x="165" y="790" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="2" fill="#8be447">A SYSTEM UNDER STRESS</text>
 <g font-family="Arial,Helvetica,sans-serif" font-size="31" fill="#fff">
   <text x="165" y="865">A functioning system is not defined only by whether its components work, but by whether responsibility,</text>
   <text x="165" y="920">control, and routes for correction hold together under stress. Fairness became meaningful to me not as</text>
-  <text x="165" y="975">an abstract principle, but as an operational question: who bears the cost when a system fails, who has</text>
-  <text x="165" y="1030">the power to correct it, and what recourse exists when informal negotiation is no longer enough?</text>
+  <text x="165" y="975">an abstract principle, but as an operational question: who bears the cost when a system fails, what can</text>
+  <text x="165" y="1030">be appealed, and what recourse remains when informal negotiation is no longer enough?</text>
 </g>
 <text x="165" y="1135" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#c9c7bf">The store is no longer operating.</text>
 <text x="2260" y="1305" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="end" fill="#77766f">05</text>
