@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350" role="img" aria-labelledby="title desc">
+<title id="title">Disruption — when hidden dependencies become visible</title>
+<desc id="desc">The Xiaohongshu account was banned for off-platform traffic diversion. Three appeals failed. For a time, map listings and returning customers still brought enquiries and visits.</desc>
+<rect width="2400" height="1350" fill="#171717"/>
+<text x="110" y="102" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#8be447">04</text>
+<text x="195" y="108" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="700" letter-spacing="1" fill="#fff">DISRUPTION</text>
+<text x="195" y="160" font-family="Arial,Helvetica,sans-serif" font-size="31" fill="#c9c7bf">When hidden dependencies become visible</text>
+<rect x="110" y="235" width="1030" height="660" rx="24" fill="#252724" stroke="#44483f" stroke-width="2"/>
+<text x="165" y="310" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" letter-spacing="2" fill="#8be447">ONE PLATFORM CHANNEL</text>
+<text x="165" y="390" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="700" fill="#fff">XIAOHONGSHU</text>
+<text x="165" y="455" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#c9c7bf">A key route for visibility, discovery, and customer contact.</text>
+<rect x="165" y="520" width="920" height="145" rx="18" fill="#393d35"/>
+<text x="205" y="578" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" fill="#fff">ACCOUNT BANNED</text>
+<text x="205" y="622" font-family="Arial,Helvetica,sans-serif" font-size="23" fill="#d9d8d1">Reason: off-platform traffic diversion</text>
+<text x="165" y="735" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#e8655c">3 appeals · none succeeded</text>
+<text x="165" y="795" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#aaa99f">I did not rebuild the account.</text>
+<rect x="1225" y="235" width="1065" height="660" rx="24" fill="#f5f3eb"/>
+<text x="1280" y="310" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" letter-spacing="2" fill="#77766f">OTHER ROUTES WHILE THE SHOP WAS ACTIVE</text>
+<text x="1280" y="390" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="700" fill="#171717">MAP LISTINGS</text>
+<g font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" fill="#171717">
+  <rect x="1280" y="430" width="270" height="70" rx="35" fill="#e7e4da"/><text x="1415" y="474" text-anchor="middle">AMAP</text>
+  <rect x="1570" y="430" width="310" height="70" rx="35" fill="#e7e4da"/><text x="1725" y="474" text-anchor="middle">BAIDU MAPS</text>
+  <rect x="1900" y="430" width="330" height="70" rx="35" fill="#e7e4da"/><text x="2065" y="474" text-anchor="middle">TENCENT MAPS</text>
+</g>
+<path d="M1750 520v60m-14-14 14 14 14-14" fill="none" stroke="#8be447" stroke-width="7"/>
+<text x="1280" y="635" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" fill="#171717">Phone enquiries → store visits</text>
+<text x="1280" y="690" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" fill="#171717">Returning customers → repeat visits</text>
+<text x="1280" y="760" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#77766f">These routes brought some customers for a time.</text>
+<rect x="110" y="960" width="2180" height="245" rx="24" fill="#f5f3eb"/>
+<text x="165" y="1030" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="2" fill="#e8655c">WHAT THE DISRUPTION REVEALED</text>
+<text x="165" y="1100" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#171717">Losing Xiaohongshu exposed the operation’s reliance on one discovery channel.</text>
+<text x="165" y="1155" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#5e5d57">Map listings and customer relationships provided other routes, but did not make the operation independent of platforms.</text>
+<text x="2260" y="1305" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="end" fill="#aaa99f">04</text>
+</svg>
