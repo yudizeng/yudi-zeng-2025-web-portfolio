@@ -1,46 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350" role="img" aria-labelledby="title desc">
-<title id="title">Network — building relationships beyond the space</title>
-<desc id="desc">Consignment partnerships, market stalls, customer relationships, and two part-time roles. The comparison focuses on operational and cultural fit, without publishing sales figures.</desc>
+<title id="title">Network — partnership fit and part-time work</title>
+<desc id="desc">A comparison of two consignment channels and earlier part-time hires with Xiao Zhao. The observed sequence is presented without a causal claim or sales comparison.</desc>
 <rect width="2400" height="1350" fill="#f5f3eb"/>
 <text x="110" y="102" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#8be447">03</text>
 <text x="195" y="108" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="700" letter-spacing="1" fill="#171717">NETWORK</text>
-<text x="195" y="160" font-family="Arial,Helvetica,sans-serif" font-size="31" fill="#77766f">Building relationships beyond the space</text>
-<text x="110" y="235" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="2" fill="#171717">A NETWORK BUILT THROUGH DIFFERENT ROUTES</text>
-<g font-family="Arial,Helvetica,sans-serif">
-  <rect x="110" y="265" width="475" height="88" rx="12" fill="#e7e4da"/><text x="145" y="320" font-size="25" font-weight="700" fill="#171717">CONSIGNMENT</text>
-  <path d="M600 309h50m-14-14 14 14-14 14" fill="none" stroke="#8be447" stroke-width="6"/>
-  <rect x="680" y="265" width="390" height="88" rx="12" fill="#e7e4da"/><text x="720" y="320" font-size="25" font-weight="700" fill="#171717">MARKET STALLS</text>
-  <path d="M1085 309h50m-14-14 14 14-14 14" fill="none" stroke="#8be447" stroke-width="6"/>
-  <rect x="1165" y="265" width="480" height="88" rx="12" fill="#e7e4da"/><text x="1205" y="320" font-size="25" font-weight="700" fill="#171717">CUSTOMER RELATIONSHIPS</text>
-  <path d="M1660 309h50m-14-14 14 14-14 14" fill="none" stroke="#8be447" stroke-width="6"/>
-  <rect x="1740" y="265" width="550" height="88" rx="12" fill="#171717"/><text x="1780" y="320" font-size="25" font-weight="700" fill="#8be447">PART-TIME SUPPORT</text>
-</g>
-<text x="110" y="420" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="2" fill="#77766f">TWO CONSIGNMENT PARTNERSHIPS</text>
-<rect x="110" y="455" width="1060" height="260" rx="18" fill="#fff" stroke="#d8d4c9" stroke-width="2"/>
-<rect x="110" y="455" width="14" height="260" rx="7" fill="#8be447"/>
-<text x="160" y="520" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#171717">LOOP MIAO</text>
-<text x="160" y="562" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#77766f">Xiamen Galaxy COCO Park Mall</text>
-<text x="160" y="625" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#171717">Large-mall reach and a mature operating model.</text>
-<text x="160" y="669" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#77766f">A wider network, with weaker day-to-day fit in this case.</text>
-<rect x="1230" y="455" width="1060" height="260" rx="18" fill="#fff" stroke="#d8d4c9" stroke-width="2"/>
-<rect x="1230" y="455" width="14" height="260" rx="7" fill="#8be447"/>
-<text x="1280" y="520" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#171717">BUNBUN VINTAGE</text>
-<text x="1280" y="562" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#77766f">DVLN PaRK</text>
-<text x="1280" y="625" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#171717">A small private studio and closer cultural fit.</text>
-<text x="1280" y="669" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#77766f">Practical connections supported customer discovery.</text>
-<text x="110" y="785" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="2" fill="#77766f">DISTRIBUTING THE WORK</text>
-<rect x="110" y="820" width="1060" height="280" rx="18" fill="#e7e4da"/>
-<text x="155" y="880" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#e8655c">EARLIER PART-TIME ASSISTANT</text>
-<text x="155" y="940" font-family="Arial,Helvetica,sans-serif" font-size="27" fill="#171717">Supported events for two months.</text>
-<text x="155" y="988" font-family="Arial,Helvetica,sans-serif" font-size="23" fill="#5e5d57">Content tasks were repeatedly deferred;</text>
-<text x="155" y="1028" font-family="Arial,Helvetica,sans-serif" font-size="23" fill="#5e5d57">the customer-acquisition loop stayed inactive.</text>
-<rect x="1230" y="820" width="1060" height="280" rx="18" fill="#171717"/>
-<text x="1275" y="880" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#8be447">XIAO ZHAO (PSEUDONYM) · PART-TIME</text>
-<text x="1275" y="940" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#fff">Helped keep daily operations moving by carrying</text>
-<text x="1275" y="980" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#fff">the content workflow through consistently.</text>
-<text x="1275" y="1032" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#c9c7bf">Studied comparable stores; customer visits and popular</text>
-<text x="1275" y="1065" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#c9c7bf">items became easier to track.</text>
-<rect x="110" y="1150" width="2180" height="100" rx="18" fill="#171717"/>
-<text x="155" y="1212" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#fff">In these partnerships, trust and cultural fit mattered more than scale alone.</text>
+<text x="195" y="160" font-family="Arial,Helvetica,sans-serif" font-size="31" fill="#77766f">Partnership fit and the distribution of work</text>
+<text x="110" y="225" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="2" fill="#77766f">TWO CONSIGNMENT CHANNELS · DIFFERENT KINDS OF FIT</text>
+<rect x="110" y="255" width="1060" height="300" rx="18" fill="#fff" stroke="#d8d4c9" stroke-width="2"/>
+<rect x="110" y="255" width="14" height="300" rx="7" fill="#aaa79d"/>
+<text x="160" y="315" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#171717">XUNHUANMIAO / LOOP MIAO</text>
+<text x="160" y="360" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#77766f">A larger, established brand in a shopping mall</text>
+<text x="160" y="425" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#171717">Mature model and broader reach.</text>
+<text x="160" y="475" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#5e5d57">My Remake pieces often needed more context to connect</text>
+<text x="160" y="510" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#5e5d57">with customers in this setting.</text>
+<rect x="1230" y="255" width="1060" height="300" rx="18" fill="#fff" stroke="#d8d4c9" stroke-width="2"/>
+<rect x="1230" y="255" width="14" height="300" rx="7" fill="#8be447"/>
+<text x="1280" y="315" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#171717">BUNBUN VINTAGE</text>
+<text x="1280" y="360" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#77766f">Met at a market stall; began in a small office-building studio</text>
+<text x="1280" y="425" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#171717">A clear vintage niche and direct customer rapport.</text>
+<text x="1280" y="475" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#5e5d57">Its audience and aesthetic overlapped more naturally</text>
+<text x="1280" y="510" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#5e5d57">with my Remake work, with less explanation needed.</text>
+<text x="110" y="620" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="2" fill="#77766f">PART-TIME WORK · REPEATED TASK GAPS, THEN A DIFFERENT WORKFLOW</text>
+<rect x="110" y="655" width="1060" height="520" rx="18" fill="#e7e4da"/>
+<text x="155" y="715" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#e8655c">EARLIER PART-TIME HIRES</text>
+<text x="155" y="775" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#171717">Event and market logistics were covered.</text>
+<text x="155" y="830" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#5e5d57">Product photography and Xiaohongshu content were often</text>
+<text x="155" y="868" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#5e5d57">not carried through; the customer-acquisition loop stayed</text>
+<text x="155" y="906" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#5e5d57">inactive, with no walk-in customers during that period.</text>
+<text x="155" y="980" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#5e5d57">I was also teaching at Xiping, which divided my capacity.</text>
+<text x="155" y="1095" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#e8655c">ROLE COVERED ≠ SYSTEM FUNCTIONED</text>
+<rect x="1230" y="655" width="1060" height="520" rx="18" fill="#171717"/>
+<text x="1275" y="715" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#8be447">XIAO ZHAO · PART-TIME</text>
+<text x="1275" y="770" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#c9c7bf">His first job; he travelled by ferry from a nearby city</text>
+<text x="1275" y="806" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#c9c7bf">each weekend.</text>
+<text x="1275" y="870" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#fff">1. Studied comparable vintage stores systematically.</text>
+<text x="1275" y="915" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#fff">2. Understood and cared about vintage and Remake.</text>
+<text x="1275" y="960" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#fff">3. Carried the content workflow through consistently.</text>
+<text x="1275" y="1030" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#c9c7bf">After he joined, I observed the first walk-in customer,</text>
+<text x="1275" y="1067" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#c9c7bf">popular items, and returning customers who came specifically.</text>
+<text x="1275" y="1125" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#8be447">Sequence observed; not a causal estimate.</text>
 <text x="2260" y="1305" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="end" fill="#77766f">03</text>
 </svg>
