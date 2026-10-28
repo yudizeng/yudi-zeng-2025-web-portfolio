@@ -226,3 +226,7 @@ body{font-synthesis:none}
 }
 @media(max-width:390px){.topbar nav{gap:12px}.wordmark,.topbar nav a{font-size:10px}.reader-pagination select{max-width:98px}}
 @media(prefers-reduced-motion:reduce){.related-material img{transition:none}.related-material .material-cover:hover img{transform:none}}
+
+/* Project 02: market rationale between the infrastructure and network stages. */
+.deck-opening{padding-bottom:0}
+.deck-continuation{padding-top:0}
