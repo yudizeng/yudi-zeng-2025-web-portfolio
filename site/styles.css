@@ -146,6 +146,21 @@ body{font-synthesis:none}
 .related-material .material-cover:hover img{transform:scale(1.01)}
 .related-material h2{font:400 clamp(25px,3vw,37px)/1.12 var(--serif);margin:14px 0 12px}
 .related-material p:not(.eyebrow){font-size:16px;line-height:1.6;color:#555;max-width:530px;margin:0 0 16px}
+
+.brand-strategy{display:grid;grid-template-columns:minmax(210px,.78fr) minmax(0,1.55fr);gap:clamp(30px,5vw,72px);max-width:1080px;margin:8px auto 68px;padding:32px 0 40px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);align-items:start}
+.brandbook-artifact .material-cover{display:block;max-width:280px;overflow:hidden;background:#eeefec}
+.brandbook-artifact .material-cover img{display:block;width:100%;height:auto}
+.brandbook-artifact h2{font:400 23px/1.2 var(--serif);margin:12px 0 8px}
+.brandbook-artifact p:not(.eyebrow){font-size:14px;line-height:1.55;color:#585856;margin:0 0 11px}
+.brandbook-artifact .eyebrow,.market-translation>.eyebrow{margin:20px 0 0}
+.market-translation h2{font:400 clamp(27px,3.2vw,39px)/1.1 var(--serif);max-width:630px;margin:10px 0 17px}
+.market-translation>p:not(.eyebrow){font-size:15px;line-height:1.62;color:#555;max-width:680px;margin:0 0 12px}
+.product-evidence{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;max-width:520px;margin:22px 0 0}
+.product-evidence figure{margin:0;min-width:0}
+.product-image{aspect-ratio:5/4;overflow:hidden;background:#e9e9e5}
+.product-evidence img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 9%}
+.product-evidence figcaption{display:flex;justify-content:space-between;gap:8px;padding:7px 1px 0;color:var(--muted);font:9px var(--mono);line-height:1.4}
+.product-evidence figcaption span:last-child{text-align:right}
 .text-link{display:inline-block;border-bottom:1px solid var(--ink);font:12px/1.6 var(--mono);padding-bottom:4px}
 .text-link:hover,.reader-end a:hover{color:var(--accent)}
 .slide-transcript{margin:12px 0 0}
@@ -186,6 +201,18 @@ body{font-synthesis:none}
  .deck .slide-transcript{margin:7px 16px 0}.slide-transcript summary{font-size:12px}
  .related-material{grid-template-columns:1fr;gap:23px;margin:5px 20px 45px;padding:25px 0}
  .related-material .material-cover{max-width:300px}.related-material h2{font-size:29px}
+ .brand-strategy{grid-template-columns:1fr;gap:30px;margin:5px 20px 48px;padding:26px 0 31px}
+ .brandbook-artifact{display:grid;grid-template-columns:minmax(105px,34%) minmax(0,1fr);gap:16px;align-items:start}
+ .brandbook-artifact .material-cover{grid-column:1;grid-row:1 / span 4;max-width:none}
+ .brandbook-artifact .eyebrow{grid-column:2;margin:0}
+ .brandbook-artifact h2{grid-column:2;font-size:20px;margin:7px 0}
+ .brandbook-artifact p:not(.eyebrow),.brandbook-artifact .text-link{grid-column:2}
+ .market-translation>.eyebrow{margin:0}
+ .market-translation h2{font-size:29px}
+ .market-translation>p:not(.eyebrow){font-size:14px}
+ .product-evidence{gap:10px;margin-top:18px}
+ .product-evidence figcaption{font-size:8px;flex-wrap:wrap}
+
  .documented-outcome{padding:15px 20px 58px}
  .reader-toolbar{grid-template-columns:minmax(0,1fr) auto;gap:16px;padding:14px 16px}
  .reader-toolbar nav{grid-column:1/-1;justify-content:space-between;border-top:1px solid var(--line);padding-top:12px;gap:15px}
