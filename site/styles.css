@@ -289,3 +289,13 @@ body{font-synthesis:none}
  .p1-map-intro{padding:22px 7px 6px}
  .p1-map-intro p:last-child{font-size:16px}
 }
+
+/* Keep the original evidence intact while covering residual text from the earlier slide raster. */
+.p1-slide-card--context .p1-slide-art::after{height:17%}
+.p1-slide-card--role .p1-slide-body{width:74%}
+.p1-slide-card--outcome .p1-slide-body{width:62%}
+.p1-end-link{max-width:1340px;margin:0 auto;padding:0 clamp(20px,9vw,138px) 70px}
+.p1-end-link .back-link{margin:0}
+@media(max-width:900px){
+ .p1-slide-card--role .p1-slide-body,.p1-slide-card--outcome .p1-slide-body{width:auto}
+}
