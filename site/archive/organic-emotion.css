@@ -1,7 +1,7 @@
 .oe-main{max-width:1440px}
-.oe-header{padding-bottom:clamp(50px,7vw,95px)}
-.oe-header h1{font-family:var(--sans);font-size:clamp(68px,10.5vw,155px);font-weight:500;letter-spacing:-.075em;line-height:.88}
-.oe-opening{margin-top:clamp(65px,8vw,115px)}
+.oe-header{padding:28px 0 30px}
+.oe-header h1{font-family:var(--sans);font-size:clamp(52px,7vw,95px);font-weight:500;letter-spacing:-.07em;line-height:1}
+.oe-opening{margin-top:clamp(34px,4vw,60px)}
 .oe-opening-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(210px,.72fr) minmax(0,1fr);gap:clamp(16px,2vw,30px);align-items:center}
 .oe-opening-image{min-width:0}.oe-opening-image img{width:100%;aspect-ratio:9/16;object-fit:contain;background:#eae9e6}
 .oe-opening-image figcaption{font:13px var(--mono)}
@@ -16,5 +16,5 @@
 .oe-sheet-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(15px,2.5vw,32px)}.oe-sheet-grid img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#e9e8e4}.oe-product-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(15px,2.5vw,32px);max-width:850px;margin:60px auto 0}.oe-product-grid img{width:100%;aspect-ratio:3/4;object-fit:cover}
 .oe-film figure{max-width:440px;margin:0 auto}.oe-film video{display:block;width:100%;aspect-ratio:9/16;object-fit:contain;background:#141414}.oe-film figcaption{text-align:center}
 @media(max-width:800px){.oe-opening-grid{grid-template-columns:1fr 1fr}.oe-statement-copy{grid-column:1/-1;grid-row:2;max-width:550px;padding:26px 0 0}.oe-carousel{grid-column:2;grid-row:1}.oe-process-intro{display:block}.oe-process-intro p{margin-top:20px}}
-@media(max-width:600px){.oe-header h1{font-size:clamp(62px,14vw,95px)}.oe-opening-grid{gap:12px}.oe-slide figcaption{font-size:10px;left:8px;bottom:8px;padding:5px 6px}.oe-motion-note{font-size:11px}.oe-role-grid{grid-template-columns:1fr;gap:45px}.oe-sheet-grid{grid-template-columns:1fr}.oe-product-grid{margin-top:40px}.oe-carousel-controls button{width:34px;height:34px}}
+@media(max-width:600px){.oe-header h1{font-size:clamp(54px,12vw,78px)}.oe-opening-grid{gap:12px}.oe-slide figcaption{font-size:10px;left:8px;bottom:8px;padding:5px 6px}.oe-motion-note{font-size:11px}.oe-role-grid{grid-template-columns:1fr;gap:45px}.oe-sheet-grid{grid-template-columns:1fr}.oe-product-grid{margin-top:40px}.oe-carousel-controls button{width:34px;height:34px}}
 @media(prefers-reduced-motion:reduce){.oe-slide{transition:none}}
