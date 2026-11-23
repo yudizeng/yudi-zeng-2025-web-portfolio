@@ -389,3 +389,18 @@ body{font-synthesis:none}
  .p1-process-row>div:last-child{padding-left:0}
  .p1-process-row>div:not(:first-child){padding-top:3px;padding-bottom:10px}
 }
+
+/* Homepage motion: the title responds to scroll; the profile enters more quietly. */
+.topbar nav{gap:clamp(14px,3vw,42px)}
+.hero{overflow:hidden}
+.hero h1{transform-origin:left center;transform:translate3d(calc(var(--hero-progress, 0) * 2.2vw),calc(var(--hero-progress, 0) * -38px),0) scale(calc(1 - var(--hero-progress, 0) * .095));opacity:calc(1 - var(--hero-progress, 0) * .2)}
+.hero-bottom{transform:translate3d(0,calc(var(--hero-progress, 0) * -18px),0);opacity:calc(1 - var(--hero-progress, 0) * .16)}
+.hero-scroll-mark{position:absolute;right:clamp(20px,5.3vw,82px);bottom:32px;display:flex;align-items:center;gap:12px;color:var(--muted);font:10px/1 var(--mono);letter-spacing:.12em;pointer-events:none}
+.hero-scroll-mark i{display:block;width:54px;height:1px;background:var(--line);position:relative;overflow:hidden}
+.hero-scroll-mark i::after{content:"";position:absolute;inset:0;background:var(--accent);transform:scaleX(var(--hero-progress, 0));transform-origin:left}
+.motion-ready .profile .section-heading,.motion-ready .profile .profile-position,.motion-ready .profile .profile-copy{opacity:0;transform:translateY(25px);transition:opacity .8s ease,transform .8s cubic-bezier(.18,.7,.2,1)}
+.motion-ready .profile.is-visible .section-heading,.motion-ready .profile.is-visible .profile-position,.motion-ready .profile.is-visible .profile-copy{opacity:1;transform:none}
+.motion-ready .profile .profile-position{transition-delay:.08s}.motion-ready .profile .profile-copy{transition-delay:.16s}
+@media(max-width:760px){.hero-scroll-mark{right:20px;bottom:24px}.hero-scroll-mark i{width:36px}}
+@media(max-width:520px){.topbar{height:auto;min-height:62px;display:block;padding:14px 18px}.topbar nav{justify-content:space-between;gap:7px;margin-top:12px}.wordmark,.topbar nav a{font-size:10px}.hero{min-height:calc(92svh - 84px)}}
+@media(prefers-reduced-motion:reduce){.hero h1,.hero-bottom{transform:none!important;opacity:1!important}.hero-scroll-mark i::after{transform:none!important}.motion-ready .profile .section-heading,.motion-ready .profile .profile-position,.motion-ready .profile .profile-copy{opacity:1;transform:none;transition:none}}

@@ -1,0 +1,4 @@
+const track=document.getElementById('archive-track');const cards=[...track.children];const indicator=document.querySelector('.archive-controls p');
+function advance(direction){const amount=cards[0].getBoundingClientRect().width+parseFloat(getComputedStyle(track).gap);track.scrollBy({left:direction*amount,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'});}
+document.getElementById('archive-prev').addEventListener('click',()=>advance(-1));document.getElementById('archive-next').addEventListener('click',()=>advance(1));
+track.addEventListener('scroll',()=>{const x=track.scrollLeft;let nearest=0;cards.forEach((card,i)=>{if(Math.abs(card.offsetLeft-track.offsetLeft-x)<Math.abs(cards[nearest].offsetLeft-track.offsetLeft-x))nearest=i});indicator.textContent=`0${nearest+1} / 03 · Drag or scroll to browse`;},{passive:true});
