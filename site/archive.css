@@ -19,6 +19,10 @@
 .archive-card:hover .study-shape,.archive-card:focus-visible .study-shape{transform:rotate(-9deg) translateY(-6px) scale(1.06);border-radius:48% 52% 39% 61%}
 .archive-card:first-child:hover .study-shape,.archive-card:first-child:focus-visible .study-shape{transform:rotate(8deg) translateY(-6px) scale(1.06)}
 .archive-card:nth-child(3):hover .study-shape{transform:rotate(9deg) translateY(-6px) scale(1.06)}
+/* Invert the complete cover on hover, keeping its original palette and geometry. */
+.archive-card{transition:transform .35s,background .35s,filter .25s ease}
+@media(hover:hover){.archive-card:hover{filter:invert(1)}}
+.archive-card:focus-visible{filter:invert(1)}
 .archive-controls{display:flex;justify-content:space-between;align-items:center;gap:22px;margin:12px clamp(20px,8vw,120px) 0;border-top:1px solid var(--line);padding-top:15px}
 .archive-controls p{font:12px var(--mono);color:var(--muted);margin:0}.archive-controls .buttons{display:flex;gap:8px}.archive-controls button{font:20px/1 var(--sans);width:44px;height:44px;border:1px solid var(--line);border-radius:50%;background:transparent;color:var(--ink);cursor:pointer}.archive-controls button:hover{border-color:var(--ink)}.archive-controls button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .work-main{max-width:1360px;margin:auto;padding:42px clamp(20px,7vw,100px) 110px}.work-back{font:12px var(--mono);color:var(--muted);border-bottom:1px solid var(--line)}.work-header{padding:65px 0 70px;border-bottom:1px solid var(--line)}.work-header .eyebrow{font-size:12px}.work-header h1{font:400 clamp(64px,10vw,130px)/.9 var(--serif);letter-spacing:-.05em;margin:13px 0 18px}.work-header .work-meta{font:13px var(--mono);color:var(--muted);margin:0}
