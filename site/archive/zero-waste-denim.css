@@ -54,10 +54,13 @@
 }
 
 .denim-support {
+  --denim-support-gap: clamp(14px, 2.5vw, 32px);
+  --denim-support-photo: calc((min(100%, 930px) - 2 * var(--denim-support-gap)) / 3);
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: clamp(14px, 2.5vw, 32px);
-  max-width: 930px;
+  grid-template-columns: repeat(3, minmax(0, var(--denim-support-photo)));
+  justify-content: space-between;
+  gap: var(--denim-support-gap);
+  max-width: 1060px;
   margin: clamp(38px, 6vw, 78px) 0 0;
 }
 
