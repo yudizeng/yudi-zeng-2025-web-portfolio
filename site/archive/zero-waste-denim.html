@@ -8,7 +8,7 @@
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="../archive.css">
-  <link rel="stylesheet" href="zero-waste-denim.css?v=iteration-gallery">
+  <link rel="stylesheet" href="zero-waste-denim.css?v=restored-layout">
   <script src="zero-waste-denim.js" defer></script>
 </head>
 <body>
@@ -31,26 +31,39 @@
     </header>
 
     <section class="work-section denim-opening" aria-label="Denim looks and technical principles">
-      <figure class="denim-hero">
-        <img src="../assets/archive/zero-waste-denim/look-staircase.webp" width="876" height="1280" alt="Two models wearing reconstructed denim on an outdoor brick staircase" fetchpriority="high">
-      </figure>
+      <div class="denim-gallery denim-hero" data-autoplay="5500" role="region" aria-label="Denim portraits">
+        <div class="denim-track" id="denim-portraits" tabindex="0" aria-label="Scroll through denim portraits">
+          <figure><img src="../assets/archive/zero-waste-denim/look-staircase.webp" width="876" height="1280" alt="Two models wearing reconstructed denim on an outdoor brick staircase" fetchpriority="high"></figure>
+          <figure><img src="../assets/archive/zero-waste-denim/look-02-studio.webp" width="875" height="1199" alt="Front view of the reconstructed denim jacket worn with dark trousers"></figure>
+          <figure><img src="../assets/archive/zero-waste-denim/look-03-foliage.webp" width="1281" height="1800" alt="Model in a patchwork denim jacket framed by green foliage"></figure>
+        </div>
+        <div class="denim-controls" hidden>
+          <button type="button" data-step="-1" aria-label="Previous portrait" aria-controls="denim-portraits">←</button>
+          <span class="denim-count" aria-hidden="true">01 / 03</span>
+          <button type="button" data-step="1" aria-label="Next portrait" aria-controls="denim-portraits">→</button>
+          <button type="button" class="denim-playback" data-label="Denim portraits" aria-controls="denim-portraits">Pause</button>
+        </div>
+      </div>
 
       <aside class="denim-technical" aria-labelledby="denim-principles">
         <h2 class="section-label" id="denim-principles">Technical</h2>
-        <div class="denim-notes">
-          <section>
-            <h3>Material reuse</h3>
-            <p>100% post-consumer and surplus materials: two pairs of jeans, remnant denim, a linen skirt, and a thermal legging. One full pair of men’s jeans was integrated into the garment structure, with only the zipper removed, leaving near-zero cutting waste.</p>
-          </section>
-          <section>
-            <h3>Construction</h3>
-            <p>A horizontal stretch-jersey gusset built into the rigid woven linen skirt expands its range of motion, giving the wearer greater freedom to move.</p>
-          </section>
-          <section>
-            <h3>Functionality</h3>
-            <p>A thermal legging becomes a tailored interior lining, giving discarded activewear a second life as cold-weather insulation.</p>
-          </section>
-        </div>
+        <ol class="denim-notes" role="list">
+          <li>
+            <span class="denim-number" aria-hidden="true">01</span>
+            <h3>Material Circularity &amp; Zero-Waste Patterning</h3>
+            <p>100% post-consumer and surplus materials (2 pairs of jeans, remnant denim, 1 linen skirt, 1 thermal legging). Near-total structural integration of a full pair of men’s jeans—removing only non-fabric hardware (zipper)—to achieve near-zero cutting waste.</p>
+          </li>
+          <li>
+            <span class="denim-number" aria-hidden="true">02</span>
+            <h3>Hybrid Textile Engineering for Mobility</h3>
+            <p>Horizontal stretch-jersey gusset engineered into a rigid woven linen skirt, expanding range of motion and reframing womenswear around physical autonomy rather than restriction.</p>
+          </li>
+          <li>
+            <span class="denim-number" aria-hidden="true">03</span>
+            <h3>Functional Upcycling &amp; Thermal Architecture</h3>
+            <p>Upcycled thermal legging repurposed as a tailored interior lining, giving discarded activewear a second lifecycle as high-utility cold-weather insulation.</p>
+          </li>
+        </ol>
       </aside>
     </section>
 
@@ -72,8 +85,8 @@
     <section class="work-section denim-record" aria-labelledby="denim-overview">
       <h2 class="section-label" id="denim-overview">Collection overview</h2>
       <figure>
-        <a href="../assets/archive/zero-waste-denim/collection-overview.webp" aria-label="View full-size collection overview">
-          <img src="../assets/archive/zero-waste-denim/collection-overview.webp" width="1868" height="1256" alt="Collection board combining styled denim looks, visual references, and garment lineups" loading="lazy">
+        <a href="../assets/archive/zero-waste-denim/collection-overview-revised.webp" aria-label="View full-size collection overview">
+          <img src="../assets/archive/zero-waste-denim/collection-overview-revised.webp" width="2048" height="1426" alt="Collection board combining styled denim looks, visual references, and garment lineups" loading="lazy">
         </a>
       </figure>
     </section>
@@ -88,24 +101,19 @@
       </figure>
     </section>
 
-    <section class="work-section denim-iteration" aria-labelledby="denim-iteration-title">
-      <p class="section-label">Design Iteration</p>
-      <h2 id="denim-iteration-title">The Same Logic, Reworked</h2>
-      <p class="denim-iteration-intro">I carried the same reconstruction logic into a second jacket. Working with a different material combination, I explored how the concept could generate a new silhouette, texture, and construction language.</p>
+    <section class="work-section denim-iteration" aria-label="Design iteration">
+      <p class="denim-iteration-intro" id="denim-iteration-title">I explored another visual and structural outcome through a different combination of materials.</p>
 
       <div class="denim-gallery denim-iteration-gallery" data-autoplay="4600" role="region" aria-label="Second jacket photographs">
         <div class="denim-track" id="denim-iteration-photos" tabindex="0" aria-label="Scroll through second jacket photographs">
           <figure>
             <img src="../assets/archive/zero-waste-denim/jacket-form.webp" width="1350" height="1800" alt="Rust and orange jacket on a dress form, seen from the side" loading="lazy">
-            <figcaption>Silhouette on the form</figcaption>
           </figure>
           <figure>
             <img src="../assets/archive/zero-waste-denim/jacket-extension.webp" width="1344" height="1792" alt="Front view of the rust and orange jacket laid flat with its sleeves extended" loading="lazy">
-            <figcaption>Overall construction</figcaption>
           </figure>
           <figure>
             <img src="../assets/archive/zero-waste-denim/jacket-lining.webp" width="1546" height="1800" alt="Inside the rust jacket with a patterned lining and cream pocket" loading="lazy">
-            <figcaption>Interior lining and pocket</figcaption>
           </figure>
         </div>
         <div class="denim-controls" hidden>

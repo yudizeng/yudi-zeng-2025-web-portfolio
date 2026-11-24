@@ -15,7 +15,6 @@
   margin-top: clamp(26px, 4vw, 54px);
 }
 
-.denim-hero img,
 .denim-record img {
   width: 100%;
 }
@@ -27,11 +26,21 @@
 .denim-notes {
   display: grid;
   gap: clamp(20px, 3vw, 36px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.denim-notes section {
+.denim-notes li {
   padding-top: 13px;
   border-top: 1px solid var(--line);
+}
+
+.denim-number {
+  display: block;
+  margin-bottom: 7px;
+  color: #696967;
+  font: 12px/1.5 var(--mono);
 }
 
 .denim-notes h3 {
@@ -53,7 +62,7 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: clamp(14px, 2.5vw, 32px);
   max-width: 930px;
-  margin: clamp(38px, 6vw, 78px) auto 0;
+  margin: clamp(38px, 6vw, 78px) 0 0;
 }
 
 .denim-support img {
@@ -82,16 +91,6 @@
   border-top: 1px solid var(--line);
 }
 
-.denim-iteration .section-label {
-  margin-bottom: 16px;
-}
-
-.denim-iteration h2 {
-  margin: 0 0 16px;
-  font: 400 clamp(36px, 5.5vw, 76px)/.98 var(--serif);
-  letter-spacing: -.045em;
-}
-
 .denim-iteration-intro {
   max-width: 600px;
 }
@@ -102,6 +101,10 @@
   padding: clamp(14px, 3.5vw, 26px);
   border: 1px solid var(--line);
   background: #f0efeb;
+}
+
+.denim-gallery {
+  min-width: 0;
 }
 
 .denim-track {
@@ -120,13 +123,17 @@
 
 .denim-track img {
   width: 100%;
-  aspect-ratio: 1.1;
   object-fit: contain;
-  background: #e7dfd5;
 }
 
-.denim-track figcaption {
-  min-height: 2.5em;
+.denim-hero .denim-track img {
+  aspect-ratio: 876 / 1280;
+  background: #eaeae6;
+}
+
+.denim-iteration-gallery .denim-track img {
+  aspect-ratio: 1.1;
+  background: #e7dfd5;
 }
 
 .denim-controls {
