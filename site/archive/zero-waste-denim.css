@@ -1,0 +1,200 @@
+.denim-header {
+  padding: clamp(36px, 5vw, 64px) 0 clamp(30px, 4vw, 48px);
+}
+
+.denim-header h1 {
+  font-size: clamp(48px, 8.7vw, 114px);
+}
+
+.denim-intro {
+  max-width: 570px;
+  margin: 19px 0 0;
+  color: #535352;
+  font-size: 17px;
+}
+
+.denim-opening {
+  display: grid;
+  grid-template-columns: minmax(0, .88fr) minmax(0, 1fr) minmax(0, 1.13fr);
+  align-items: start;
+  gap: clamp(20px, 3vw, 46px);
+  margin-top: clamp(30px, 5vw, 68px);
+}
+
+.denim-gallery {
+  min-width: 0;
+}
+
+.denim-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-inline: contain;
+  scrollbar-width: thin;
+}
+
+.denim-track > figure {
+  flex: 0 0 100%;
+  min-width: 0;
+  scroll-snap-align: start;
+}
+
+.denim-track img {
+  width: 100%;
+  object-fit: contain;
+  background-color: #eaeae6;
+}
+
+.denim-portraits img {
+  aspect-ratio: 5 / 7;
+}
+
+.denim-landscapes {
+  align-self: end;
+  margin-top: clamp(65px, 12vw, 185px);
+}
+
+.denim-landscapes img {
+  aspect-ratio: 7 / 5;
+}
+
+.denim-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.denim-controls[hidden] {
+  display: none;
+}
+
+.denim-controls button {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0 8px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--ink);
+  font: 16px/1 var(--sans);
+  cursor: pointer;
+}
+
+.denim-controls button:hover {
+  border-color: var(--line);
+}
+
+.denim-track:focus-visible,
+.denim-controls button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.denim-count,
+.denim-controls .denim-playback {
+  font: 12px/1.3 var(--mono);
+  color: #5c5c5a;
+}
+
+.denim-playback {
+  margin-left: auto;
+}
+
+.denim-notes {
+  display: grid;
+  gap: 21px;
+  margin: 0;
+  padding: clamp(14px, 3vw, 42px) 0 0;
+  list-style: none;
+}
+
+.denim-notes li {
+  padding-top: 11px;
+  border-top: 1px solid var(--line);
+}
+
+.denim-number {
+  display: block;
+  margin-bottom: 7px;
+  color: #696967;
+  font: 12px/1.5 var(--mono);
+}
+
+.denim-notes h2 {
+  margin: 0 0 8px;
+  font: 400 clamp(23px, 2.15vw, 31px)/1.12 var(--serif);
+  letter-spacing: -.025em;
+}
+
+.denim-notes p {
+  margin: 0;
+  color: #454543;
+  font-size: 16px;
+  line-height: 1.54;
+}
+
+.denim-record {
+  max-width: 1060px;
+  margin-inline: auto;
+}
+
+.denim-record a {
+  display: block;
+}
+
+.denim-record img {
+  width: 100%;
+}
+
+.denim-record:has(#denim-technical) {
+  max-width: 950px;
+}
+
+.denim-document {
+  max-width: 640px;
+  margin-inline: auto;
+  padding: clamp(18px, 4vw, 35px);
+  border: 1px solid var(--line);
+  background: #f0efeb;
+}
+
+.denim-document .denim-track img {
+  height: clamp(280px, 49vw, 520px);
+  background: #e7dfd5;
+}
+
+.denim-document figcaption {
+  min-height: 2.5em;
+}
+
+@media (max-width: 960px) {
+  .denim-opening {
+    grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  }
+
+  .denim-notes {
+    grid-column: 2;
+    grid-row: span 2;
+    padding-top: 0;
+  }
+
+  .denim-landscapes {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 620px) {
+  .denim-opening {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+
+  .denim-notes {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .denim-portraits {
+    width: min(100%, 400px);
+  }
+}
