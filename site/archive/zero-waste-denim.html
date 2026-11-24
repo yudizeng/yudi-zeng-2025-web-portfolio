@@ -8,7 +8,8 @@
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="../archive.css">
-  <link rel="stylesheet" href="zero-waste-denim.css?v=editorial">
+  <link rel="stylesheet" href="zero-waste-denim.css?v=iteration-gallery">
+  <script src="zero-waste-denim.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#zero-waste-denim">Skip to Zero-Waste Denim</a>
@@ -92,12 +93,12 @@
       <h2 id="denim-iteration-title">The Same Logic, Reworked</h2>
       <p class="denim-iteration-intro">I carried the same reconstruction logic into a second jacket. Working with a different material combination, I explored how the concept could generate a new silhouette, texture, and construction language.</p>
 
-      <div class="denim-iteration-grid">
-        <figure>
-          <img src="../assets/archive/zero-waste-denim/jacket-form.webp" width="1350" height="1800" alt="Rust and orange jacket on a dress form, seen from the side" loading="lazy">
-          <figcaption>Silhouette on the form</figcaption>
-        </figure>
-        <div class="denim-iteration-details">
+      <div class="denim-gallery denim-iteration-gallery" data-autoplay="4600" role="region" aria-label="Second jacket photographs">
+        <div class="denim-track" id="denim-iteration-photos" tabindex="0" aria-label="Scroll through second jacket photographs">
+          <figure>
+            <img src="../assets/archive/zero-waste-denim/jacket-form.webp" width="1350" height="1800" alt="Rust and orange jacket on a dress form, seen from the side" loading="lazy">
+            <figcaption>Silhouette on the form</figcaption>
+          </figure>
           <figure>
             <img src="../assets/archive/zero-waste-denim/jacket-extension.webp" width="1344" height="1792" alt="Front view of the rust and orange jacket laid flat with its sleeves extended" loading="lazy">
             <figcaption>Overall construction</figcaption>
@@ -106,6 +107,12 @@
             <img src="../assets/archive/zero-waste-denim/jacket-lining.webp" width="1546" height="1800" alt="Inside the rust jacket with a patterned lining and cream pocket" loading="lazy">
             <figcaption>Interior lining and pocket</figcaption>
           </figure>
+        </div>
+        <div class="denim-controls" hidden>
+          <button type="button" data-step="-1" aria-label="Previous jacket photo" aria-controls="denim-iteration-photos">←</button>
+          <span class="denim-count" aria-hidden="true">01 / 03</span>
+          <button type="button" data-step="1" aria-label="Next jacket photo" aria-controls="denim-iteration-photos">→</button>
+          <button type="button" class="denim-playback" data-label="Second jacket photographs" aria-controls="denim-iteration-photos">Pause</button>
         </div>
       </div>
     </section>

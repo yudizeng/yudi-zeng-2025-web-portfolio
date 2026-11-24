@@ -16,8 +16,7 @@
 }
 
 .denim-hero img,
-.denim-record img,
-.denim-iteration-grid img {
+.denim-record img {
   width: 100%;
 }
 
@@ -97,37 +96,89 @@
   max-width: 600px;
 }
 
-.denim-iteration-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr);
-  align-items: center;
-  gap: clamp(20px, 4vw, 56px);
-  margin-top: clamp(24px, 5vw, 60px);
-}
-
-.denim-iteration-details {
-  display: grid;
-  gap: clamp(18px, 3.5vw, 42px);
-}
-
-.denim-iteration-details img {
-  aspect-ratio: 1;
-  object-fit: contain;
+.denim-iteration-gallery {
+  max-width: 480px;
+  margin: clamp(24px, 5vw, 52px) auto 0;
+  padding: clamp(14px, 3.5vw, 26px);
+  border: 1px solid var(--line);
   background: #f0efeb;
 }
 
+.denim-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-inline: contain;
+  scrollbar-width: thin;
+}
+
+.denim-track > figure {
+  flex: 0 0 100%;
+  min-width: 0;
+  scroll-snap-align: start;
+}
+
+.denim-track img {
+  width: 100%;
+  aspect-ratio: 1.1;
+  object-fit: contain;
+  background: #e7dfd5;
+}
+
+.denim-track figcaption {
+  min-height: 2.5em;
+}
+
+.denim-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  border-top: 1px solid var(--line);
+}
+
+.denim-controls[hidden] {
+  display: none;
+}
+
+.denim-controls button {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0 8px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--ink);
+  font: 16px/1 var(--sans);
+  cursor: pointer;
+}
+
+.denim-controls button:hover {
+  border-color: var(--line);
+}
+
+.denim-track:focus-visible,
+.denim-controls button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.denim-count,
+.denim-controls .denim-playback {
+  font: 12px/1.3 var(--mono);
+  color: #5c5c5a;
+}
+
+.denim-playback {
+  margin-left: auto;
+}
+
 @media (max-width: 760px) {
-  .denim-opening,
-  .denim-iteration-grid {
+  .denim-opening {
     grid-template-columns: minmax(0, 1fr);
   }
 
   .denim-technical {
     padding-top: 0;
-  }
-
-  .denim-iteration-details {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
